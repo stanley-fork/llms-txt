@@ -38,6 +38,7 @@ The `llms.txt` file is unusual in that it uses Markdown to structure the informa
 
 The llms.txt file spec is for files located in the root path `/llms.txt` of a website (or, optionally, in a subpath). A file following the spec contains the following sections as markdown, in the specific order:
 
+- An optional byte-order mark (BOM)
 - An H1 with the name of the project or site. This is the only required section
 - A blockquote with a short summary of the project, containing key information necessary for understanding the rest of the file
 - Zero or more markdown sections (e.g. paragraphs, lists, etc) of any type except headings, containing more detailed information about the project and how to interpret the provided files
